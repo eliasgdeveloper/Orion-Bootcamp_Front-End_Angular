@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 20px 0 0 0;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 0;
+    color: #000;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input {
+    padding: 8px;
+    font-size: 20px;
+    width: 100%;
+    height: 60px;
+    border-color: black;
+    border-radius: 5px;
+    outline: none;
+    color: #007bff;
+    background-color: #e6e6e6;
+    margin: 10% auto;
+}
+
+input::placeholder {
+    color: #007bff;
+    opacity: 0.7;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 24px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 2px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result-box {
+    border: 2px solid #007bff;
+    margin-top: 20px;
+    padding: 10px;
+
+}
+
+#resultado {
+    font-size: 18px;
+    color: #007bff;
+
+}
+
+
+
+.autor {
+    font-size: 18px;
+    width: 50%;
+    margin: 20% auto;
+
+}
